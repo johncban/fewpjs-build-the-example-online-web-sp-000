@@ -29,6 +29,10 @@ function likeCallback(e) {
   });
 }
 
+for (let glyph of articleHearts) {
+  glyph.addEventListener("click", likeCallback);
+}
+
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
